@@ -14,7 +14,8 @@ Ideal for:
 
 ## 📸 Screenshots
 
-![Palette Generator]()
+![Palette Generator](https://github.com/vishalvermacore/Color_Palette_Generator/blob/3a0575da4e52e9743499237c9f9f28e6e526e8e3/color-palette-image.png)
+
 ---
 
 ## 🚀 Features
@@ -71,12 +72,39 @@ color-palette-generator/
 
 ---
 
-## ✏️ Customization Guide
+## ⚡ Performance Optimization
+- Pure vanilla JavaScript (no dependencies)
+- Cached DOM references
+- Minimal reflows and repaints
+- Controlled event execution
+- Efficient iteration using native array methods
 
-### Change Number of Colors
-Modify the loop in `script.js`:
-```js
-for (let i = 0; i < 5; i++) {
-  colors.push(generateRandomColor());
-}
+---
 
+## 🌍 Browser Compatibility
+Compatible with all modern browsers supporting:
+- ES6 JavaScript
+- CSS Flexbox
+- HTML5 `data-*` attributes
+
+---
+
+## 📚 Learning Resources
+The implementation follows best practices documented by authoritative sources:
+
+- MDN Web Docs – HTML  
+  https://developer.mozilla.org/en-US/docs/Web/HTML
+
+- MDN Web Docs – CSS & Flexbox  
+  https://developer.mozilla.org/en-US/docs/Web/CSS
+
+- MDN Web Docs – JavaScript  
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+- MDN Web Docs – Using data-* attributes  
+  https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
+
+---
+
+## 📄 License
+This project is open-source and available for educational and personal use.
